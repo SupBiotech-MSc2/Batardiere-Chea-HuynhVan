@@ -22,5 +22,13 @@ screening.
 
 ## Team Notes
 <!-- add your own line below, one per teammate -->
+<<<<<<< HEAD
+Anne-So: This is mine!
+=======
+Tea: This is my line. 
 
+<<<<<<< HEAD
 Théo : This my line
+=======
+>>>>>>> 72538630f5d962c021bea83ff1f7165e73a74dcf
+>>>>>>> 4f96a716a6924338352da09c9693c29ba6c6a1fa

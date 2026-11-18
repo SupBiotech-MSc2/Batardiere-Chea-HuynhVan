@@ -21,6 +21,7 @@ screening.
 3. Electroporate RNP complex into 2x10^5 cells per reaction.
 4. Recover cells in antibiotic-free media for 48h.
 5. Validate editing efficiency by amplicon sequencing.
+6. Expand single-cell clones and confirm knockout by Western blot.
 
 ## Team Notes
 <!-- add your own line below, one per teammate -->

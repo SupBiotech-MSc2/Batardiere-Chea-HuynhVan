@@ -11,6 +11,7 @@ screening.
 - Cas9 protein (NLS-tagged)
 - Synthetic sgRNA (target-specific)
 - Electroporation buffer
+- Anti-target antibody (for Western blot validation)
 - HEK293 cells, passage < 20
 - Puromycin (selection antibiotic)
 - DAPI (viability stain)

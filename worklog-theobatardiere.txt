@@ -1,0 +1,661 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+diff --git a/protocol.md b/protocol.md
+index 876c565..6ed0880 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -35,3 +35,5 @@ Théo : This my line
+ =======
+ >>>>>>> 72538630f5d962c021bea83ff1f7165e73a74dcf
+ >>>>>>> 4f96a716a6924338352da09c9693c29ba6c6a1fa
++
++**Status:** BROKEN
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+# edit manuel: ajout d'un commentaire dans protocol.md
+[main df957c8] test: throwaway commit
+ 1 file changed, 4 insertions(+)
+df957c8 test: throwaway commit
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+Unstaged changes after reset:
+M	protocol.md
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+diff --git a/protocol.md b/protocol.md
+index 876c565..8f43cc7 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -27,11 +27,4 @@ screening.
+ ## Team Notes
+ <!-- add your own line below, one per teammate -->
+ Anne-So: This is mine!
+-=======
+-Tea: This is my line. 
+-
+-<<<<<<< HEAD
+-Théo : This my line
+-=======
+->>>>>>> 72538630f5d962c021bea83ff1f7165e73a74dcf
+->>>>>>> 4f96a716a6924338352da09c9693c29ba6c6a1fa
++Tea: This is my line.
+[main ae11a56] fix: remove leftover conflict markers in team notes
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+[main d4a24be] docs: add team note line from Théo
+ 1 file changed, 1 insertion(+)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   1bb4be9..d4a24be  main -> main
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+[main 9368eaa] Revert "docs: add team note line from Théo"
+ Date: Thu Nov 19 10:44:17 2026 +0100
+ 1 file changed, 1 deletion(-)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   d4a24be..9368eaa  main -> main
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+## Team Notes
+<!-- add your own line below, one per teammate -->
+Anne-So: This is mine!
+Tea: This is my line.
+[main 4d20563] docs: restore team note from Théo
+ 1 file changed, 1 insertion(+)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   9368eaa..4d20563  main -> main
+4d20563 docs: restore team note from Théo
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+## Team Notes
+<!-- add your own line below, one per teammate -->
+Anne-So: This is mine!
+Tea: This is my line.
+Théo : This my line
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+commit 4d205637ee97b100f35ba07bca1c480fc80a9186
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Nov 19 10:45:42 2026 +0100
+
+    docs: restore team note from Théo
+
+commit 9368eaad486e78d756c602dcacd020d9fdf1f1e2
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Nov 19 10:44:17 2026 +0100
+
+    Revert "docs: add team note line from Théo"
+    
+    This reverts commit d4a24beae3f556f2efaa9ee0c5416c49e4f3b692.
+
+commit d4a24beae3f556f2efaa9ee0c5416c49e4f3b692
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Nov 19 10:42:59 2026 +0100
+
+    docs: add team note line from Théo
+
+commit ae11a56588d660caa0004efa013ad5f978b2ad31
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Nov 19 10:42:36 2026 +0100
+
+    fix: remove leftover conflict markers in team notes
+
+commit 1bb4be9f4cef87dff9f97b6cb568a70f06032bf9
+Merge: be5180c 07b21ea
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:26:34 2026 +0100
+
+    chore: merge feature/tea-idea into main
+
+commit 07b21ea0892fb96582be97191b5bf221e2750c2d
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:25:49 2026 +0100
+
+    feat: add antibody for knockout validation
+
+commit 9665438d3bd213288c7de17aab4e3e18ee8c0a2e
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:24:31 2026 +0100
+
+    feat: add clone validation step
+
+commit be5180c8cc60fa2574e36781f1f8ad8feab362ca
+Merge: 5ae9d02 dd37461
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Wed Nov 18 17:21:47 2026 +0100
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+
+commit dd37461bbe8d09516e01fbc11773e8d369788805
+Merge: 22b1560 7dcafac
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:21:23 2026 +0100
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+
+commit 5ae9d02022985da6cebe1ab51aac4b8aa4e9519c
+Merge: d6c8cd0 9819961
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Wed Nov 18 17:20:33 2026 +0100
+
+    Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+
+commit 7dcafacaafe4b5b55192f9d04936444f75936a3d
+Merge: 9819961 f02c66a
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:20:31 2026 +0100
+
+    chore: merge feature/annesophie-idea into main
+
+commit f02c66a058a81372aef7d870a5ceb3ccef59a42c
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:18:28 2026 +0100
+
+    feat: add DAPI to reagents
+
+commit 19ef36da41347db565cc39e376efc9067d93f5f8
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:15:44 2026 +0100
+
+    feat: add puromycin to reagents
+
+commit 22b15603d14c287a076633f18b7b0f597445ee46
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:13:10 2026 +0100
+
+    feat: restore team note from Tea
+
+commit 98199610804fddd9e6a13ce71cf9b4f43af464d5
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:11:21 2026 +0100
+
+    Revert "docs: add revert practice line"
+    
+    This reverts commit b54bf62d433c9377155b749d8d1b35f2135767e9.
+
+commit b54bf62d433c9377155b749d8d1b35f2135767e9
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:10:48 2026 +0100
+
+    docs: add revert practice line
+
+commit d6c8cd02a038d7be87e181b3b4cc408b09521aa2
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Wed Nov 18 17:07:48 2026 +0100
+
+    Revert "feat: add team note from Théo"
+    
+    This reverts commit 0edda144694a4562e7c62fa2bd27ee0b5806b95d.
+
+commit f231bba48ee0cfe7657593d272b6a632336ca6e6
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:06:15 2026 +0100
+
+    Revert "feat: add team note from Tea"
+    
+    This reverts commit 72538630f5d962c021bea83ff1f7165e73a74dcf.
+
+commit 898f658dab248bef7ce4c90b63a239a5c3875740
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 16:59:38 2026 +0100
+
+    fix: revolve leftover conflict markers in team notes
+
+commit 598a6a214dd3b3f8b3e1bac0781457cd2a914337
+Merge: 0edda14 4f96a71
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Sep 24 12:37:57 2026 +0200
+
+    feat: add team note
+
+commit 4f96a716a6924338352da09c9693c29ba6c6a1fa
+Merge: a3b7fea 7253863
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Thu Sep 24 12:29:46 2026 +0200
+
+    feat: add team note
+
+commit 72538630f5d962c021bea83ff1f7165e73a74dcf
+Author: Tea Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Thu Sep 24 12:21:04 2026 +0200
+
+    feat: add team note from Tea
+
+commit 0edda144694a4562e7c62fa2bd27ee0b5806b95d
+Author: Théo Batardière <theobatardiere@MacBook-Air-Theo.local>
+Date:   Thu Sep 24 12:17:26 2026 +0200
+
+    feat: add team note from Théo
+
+commit a3b7fea48aa887869cd804cd706f1475adbe2ae2
+Author: ANNE-SOPHIE CHEA <anne-sophie.chea@bd.com>
+Date:   Thu Sep 24 12:17:24 2026 +0200
+
+    feat: add team note from Anne-So
+
+commit 922e67bbd911d80dd60992029113b669fb6eb95e
+Author: tchv01 <teacarla.huynh-van@supbiotech.fr>
+Date:   Thu Sep 24 11:41:39 2026 +0200
+
+    Initial commit
+4d20563 docs: restore team note from Théo
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+9665438 feat: add clone validation step
+be5180c Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+dd37461 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+5ae9d02 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+7dcafac chore: merge feature/annesophie-idea into main
+f02c66a feat: add DAPI to reagents
+19ef36d feat: add puromycin to reagents
+22b1560 feat: restore team note from Tea
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+d6c8cd0 Revert "feat: add team note from Théo"
+f231bba Revert "feat: add team note from Tea"
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+7253863 feat: add team note from Tea
+0edda14 feat: add team note from Théo
+a3b7fea feat: add team note from Anne-So
+922e67b Initial commit
+commit 07b21ea0892fb96582be97191b5bf221e2750c2d
+Author: Téa Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Wed Nov 18 17:25:49 2026 +0100
+
+    feat: add antibody for knockout validation
+
+diff --git a/protocol.md b/protocol.md
+index 41e7cd2..c5e584a 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -11,6 +11,7 @@ screening.
+ - Cas9 protein (NLS-tagged)
+ - Synthetic sgRNA (target-specific)
+ - Electroporation buffer
++- Anti-target antibody (for Western blot validation)
+ - HEK293 cells, passage < 20
+ - Puromycin (selection antibiotic)
+ - DAPI (viability stain)
+diff --git a/protocol.md b/protocol.md
+index e54589f..49b593f 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -29,3 +29,5 @@ screening.
+ Anne-So: This is mine!
+ Tea: This is my line.
+ Théo : This my line
++
++<!-- test diff -->
+diff --git a/protocol.md b/protocol.md
+index e54589f..49b593f 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -29,3 +29,5 @@ screening.
+ Anne-So: This is mine!
+ Tea: This is my line.
+ Théo : This my line
++
++<!-- test diff -->
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+f5a12d8 theobatardiere add a reagent
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+ - [deleted]         feature/theobatardiere-idea
+Deleted branch feature/theobatardiere-idea (was 2c09b34).
+Switched to a new branch 'feature/theobatardiere-idea'
+* feature/theobatardiere-idea
+  main
+On branch feature/theobatardiere-idea
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[feature/theobatardiere-idea 1076264] feat: add nuclease-free water to reagents
+ 1 file changed, 1 insertion(+)
+remote: 
+remote: Create a pull request for 'feature/theobatardiere-idea' on GitHub by visiting:        
+remote:      https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan/pull/new/feature/theobatardiere-idea        
+remote: 
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+ * [new branch]      feature/theobatardiere-idea -> feature/theobatardiere-idea
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+## Reagents
+- Cas9 protein (NLS-tagged)
+- Synthetic sgRNA (target-specific)
+- Electroporation buffer
+- Anti-target antibody (for Western blot validation)
+- HEK293 cells, passage < 20
+- Puromycin (selection antibiotic)
+- DAPI (viability stain)
+
+Switched to branch 'feature/theobatardiere-idea'
+## Reagents
+- Cas9 protein (NLS-tagged)
+- Synthetic sgRNA (target-specific)
+- Electroporation buffer
+- Anti-target antibody (for Western blot validation)
+- HEK293 cells, passage < 20
+- Puromycin (selection antibiotic)
+- DAPI (viability stain)
+- Nuclease-free water
+
+Switched to a new branch 'feature/theobatardiere-rebase-demo'
+[feature/theobatardiere-rebase-demo e73e2f0] feat: add sterile filter tips to reagents
+ 1 file changed, 1 insertion(+)
+4d20563 docs: restore team note from Théo
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+9665438 feat: add clone validation step
+be5180c Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+dd37461 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+5ae9d02 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+7dcafac chore: merge feature/annesophie-idea into main
+f02c66a feat: add DAPI to reagents
+19ef36d feat: add puromycin to reagents
+22b1560 feat: restore team note from Tea
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+d6c8cd0 Revert "feat: add team note from Théo"
+f231bba Revert "feat: add team note from Tea"
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+7253863 feat: add team note from Tea
+0edda14 feat: add team note from Théo
+a3b7fea feat: add team note from Anne-So
+922e67b Initial commit
+e73e2f0 feat: add sterile filter tips to reagents
+1076264 feat: add nuclease-free water to reagents
+4d20563 docs: restore team note from Théo
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+1bb4be9 chore: merge feature/tea-idea into main
+07b21ea feat: add antibody for knockout validation
+9665438 feat: add clone validation step
+be5180c Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+dd37461 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+5ae9d02 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+7dcafac chore: merge feature/annesophie-idea into main
+f02c66a feat: add DAPI to reagents
+19ef36d feat: add puromycin to reagents
+22b1560 feat: restore team note from Tea
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+d6c8cd0 Revert "feat: add team note from Théo"
+f231bba Revert "feat: add team note from Tea"
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+7253863 feat: add team note from Tea
+0edda14 feat: add team note from Théo
+a3b7fea feat: add team note from Anne-So
+922e67b Initial commit
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Deleted branch feature/theobatardiere-rebase-demo (was e73e2f0).
+Switched to a new branch 'feature/theobatardiere-rebase-demo'
+1bb4be9 chore: merge feature/tea-idea into main
+On branch feature/theobatardiere-rebase-demo
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[feature/theobatardiere-rebase-demo 25d3559] feat: add sterile filter tips to reagents
+ 1 file changed, 1 insertion(+)
+25d3559 feat: add sterile filter tips to reagents
+4d20563 docs: restore team note from Théo
+9368eaa Revert "docs: add team note line from Théo"
+d4a24be docs: add team note line from Théo
+ae11a56 fix: remove leftover conflict markers in team notes
+* 25d3559 (HEAD -> feature/theobatardiere-rebase-demo) feat: add sterile filter tips to reagents
+| * 4d20563 (origin/main, origin/HEAD, main) docs: restore team note from Théo
+| * 9368eaa Revert "docs: add team note line from Théo"
+| * d4a24be docs: add team note line from Théo
+| * ae11a56 fix: remove leftover conflict markers in team notes
+|/  
+*   1bb4be9 chore: merge feature/tea-idea into main
+|\  
+| * 07b21ea (origin/feature/tea-idea) feat: add antibody for knockout validation
+Rebasing (1/1)Successfully rebased and updated refs/heads/feature/theobatardiere-rebase-demo.
+* 8810d16 feat: add sterile filter tips to reagents
+* 4d20563 docs: restore team note from Théo
+* 9368eaa Revert "docs: add team note line from Théo"
+* d4a24be docs: add team note line from Théo
+* ae11a56 fix: remove leftover conflict markers in team notes
+*   1bb4be9 chore: merge feature/tea-idea into main
+|\  
+8810d16 feat: add sterile filter tips to reagents
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Merge made by the 'ort' strategy.
+ protocol.md | 1 +
+ 1 file changed, 1 insertion(+)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   4d20563..19d6407  main -> main
+*   19d6407 chore: merge feature/theobatardiere-idea into main
+|\  
+| * 1076264 feat: add nuclease-free water to reagents
+|/  
+* 4d20563 docs: restore team note from Théo
+* 9368eaa Revert "docs: add team note line from Théo"
+* d4a24be docs: add team note line from Théo
+## Reagents
+- Cas9 protein (NLS-tagged)
+- Synthetic sgRNA (target-specific)
+- Electroporation buffer
+- Anti-target antibody (for Western blot validation)
+- HEK293 cells, passage < 20
+- Puromycin (selection antibiotic)
+- DAPI (viability stain)
+- Nuclease-free water
+
+Deleted branch feature/theobatardiere-rebase-demo (was 8810d16).
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+   19d6407..2dd0486  main       -> origin/main
+Updating 19d6407..2dd0486
+Fast-forward
+ protocol.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+*   2dd0486 Merge branch 'feature/status-review'
+|\  
+| * 740ec7e chore: mark status as under review
+* | 52cc225 chore: bump status to draft v2
+|/  
+*   19d6407 chore: merge feature/theobatardiere-idea into main
+|\  
+| * 1076264 feat: add nuclease-free water to reagents
+|/  
+* 4d20563 docs: restore team note from Théo
+* 9368eaa Revert "docs: add team note line from Théo"
+* d4a24be docs: add team note line from Théo
+**Status:** Draft v2 - under review
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+   2dd0486..3df8e90  main       -> origin/main
+* 3df8e90 chore: add session 1 work log
+*   2dd0486 Merge branch 'feature/status-review'
+|\  
+| * 740ec7e chore: mark status as under review
+* | 52cc225 chore: bump status to draft v2
+|/  
+*   19d6407 chore: merge feature/theobatardiere-idea into main
+|\  
+| * 1076264 feat: add nuclease-free water to reagents
+|/  
+* 4d20563 docs: restore team note from Théo
+* 9368eaa Revert "docs: add team note line from Théo"
+* d4a24be docs: add team note line from Théo
+* ae11a56 fix: remove leftover conflict markers in team notes
+*   1bb4be9 chore: merge feature/tea-idea into main
+|\  
+| * 07b21ea feat: add antibody for knockout validation
+| * 9665438 feat: add clone validation step
+* | be5180c Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+|\| 
+| *   dd37461 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+| |\  
+| | *   7dcafac chore: merge feature/annesophie-idea into main
+| | |\  
+| | | * f02c66a feat: add DAPI to reagents
+| | | * 19ef36d feat: add puromycin to reagents
+| | |/  
+| * | 22b1560 feat: restore team note from Tea
+| * | f231bba Revert "feat: add team note from Tea"
+* | |   5ae9d02 Merge branch 'main' of https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+|\ \ \  
+| | |/  
+| |/|   
+| * | 9819961 Revert "docs: add revert practice line"
+| * | b54bf62 docs: add revert practice line
+| |/  
+| * 898f658 fix: revolve leftover conflict markers in team notes
+* | d6c8cd0 Revert "feat: add team note from Théo"
+|/  
+*   598a6a2 feat: add team note
+|\  
+| *   4f96a71 feat: add team note
+| |\  
+| | * 7253863 feat: add team note from Tea
+| * | a3b7fea feat: add team note from Anne-So
+| |/  
+* / 0edda14 feat: add team note from Théo
+|/  
+* 922e67b Initial commit
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-theobatardiere.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+   3df8e90..d278719  main       -> origin/main
+Updating 2dd0486..d278719
+Fast-forward
+ worklog-annesophie.txt | 447 ++++++++++++++++++++++++++++++++++++++++
+ worklog-tea.txt        | 539 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 986 insertions(+)
+ create mode 100644 worklog-annesophie.txt
+ create mode 100644 worklog-tea.txt
+3df8e90 Anne-Sophie CHEA chore: add session 1 work log
+
+ worklog-annesophie.txt | 447 +++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 447 insertions(+)

@@ -35,3 +35,7 @@ one.
    copy of this repo.
 2. Every group member clones the new repo locally.
 3. Follow `instuctions.md` from Section 0 onward.
+
+## Branching strategy
+We use trunk-based development: short-lived branches merged into 'main' often.
+With three people and small, frequent changes, Git Flow's long-lived 'develop'/'release'/'hotfix' branches would only add overhead.

@@ -1,0 +1,1327 @@
+Cloning into 'protocol-library'...
+remote: Repository not found.
+fatal: repository 'https://github.com/theobatardiere/protocol-library.git/' not found
+Cloning into 'protocol-library'...
+origin	https://github.com/theobatardiere/protocol-library.git (fetch)
+origin	https://github.com/theobatardiere/protocol-library.git (push)
+upstream	https://github.com/SupBiotech-MSc2/protocol-library.git (fetch)
+upstream	https://github.com/SupBiotech-MSc2/protocol-library.git (push)
+Switched to a new branch 'docs/add-theobatardiere'
+On branch docs/add-theobatardiere
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	contributors/.Rhistory
+	contributors/theobatardiere.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch docs/add-theobatardiere
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	contributors/theobatardiere.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+diff --git a/contributors/theobatardiere.md b/contributors/theobatardiere.md
+new file mode 100644
+index 0000000..3d9a8c0
+--- /dev/null
++++ b/contributors/theobatardiere.md
+@@ -0,0 +1,6 @@
++# <your-github-username>
++
++- **Name:** Théo Batardière
++- **GitHub:** @theobatardiere
++- **Group:** 1
++- **Favourite technique:** "Electron microscope"
+[docs/add-theobatardiere a27e3fa] docs: add theobatardiere to contributors
+ 1 file changed, 6 insertions(+)
+ create mode 100644 contributors/theobatardiere.md
+remote: 
+remote: Create a pull request for 'docs/add-theobatardiere' on GitHub by visiting:        
+remote:      https://github.com/theobatardiere/protocol-library/pull/new/docs/add-theobatardiere        
+remote: 
+To https://github.com/theobatardiere/protocol-library.git
+ * [new branch]      docs/add-theobatardiere -> docs/add-theobatardiere
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to a new branch 'fix/western-missing-step'
+On branch fix/western-missing-step
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocols/western-blot.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+diff --git a/protocols/western-blot.md b/protocols/western-blot.md
+index f33ddb9..13d3d3a 100644
+--- a/protocols/western-blot.md
++++ b/protocols/western-blot.md
+@@ -6,6 +6,7 @@ Detect a specific protein in a sample using an antibody.
+ - Protein samples in Laemmli buffer
+ - SDS-PAGE gel and running buffer
+ - PVDF membrane and transfer buffer
++- Ponceau S solution
+ - Blocking buffer (5% non-fat milk in TBST)
+ - Primary and HRP-conjugated secondary antibodies
+ - ECL substrate
+@@ -14,6 +15,7 @@ Detect a specific protein in a sample using an antibody.
+ 1. Heat the samples at 95 °C for 5 min and load them on an SDS-PAGE gel with a protein ladder.
+ 2. Run the gel at 120 V until the dye front reaches the bottom.
+ 3. Transfer the proteins to a PVDF membrane (100 V for 1 h, on ice).
++4. Stain the membrane with Ponceau S for 1-5 min, then rinse with water until the protein bands are visible to check that the transfer worked. Destain with TBST before blocking.
+ 5. Block the membrane in blocking buffer for 1 h at room temperature.
+ 6. Incubate with the primary antibody overnight at 4 °C.
+ 7. Wash 3 x 10 min in TBST.
+[fix/western-missing-step 32b06ad] fix: add missing step 4 to western blot protocol
+ 1 file changed, 2 insertions(+)
+remote: 
+remote: Create a pull request for 'fix/western-missing-step' on GitHub by visiting:        
+remote:      https://github.com/theobatardiere/protocol-library/pull/new/fix/western-missing-step        
+remote: 
+To https://github.com/theobatardiere/protocol-library.git
+ * [new branch]      fix/western-missing-step -> fix/western-missing-step
+    1  
+    2   eco 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zshrc
+    3   eco 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zshrch
+    4  -p technology
+    5  history | tail\n: 1759908563:0;ls
+    6  cat ~/.zsh_sessions/*.history ~/.zsh_sessions/*.historynew | less\n: 1759908642:0;export HISTFILE=~/.zsh_history\n: 1759908643:0;ls
+    7  echo $HISTSIZE $SAVEHIST\n: 1759908731:0;export HISTSIZE=200000\n: 1759908737:0;fc -R ~/.zsh_history\n: 1759908745:0;history | head\n: 1759908759:0;ls
+    8  # Historique Zsh étendu\n: 1759908791:0;export HISTSIZE=200000\n: 1759908798:0;source ~/.zshrc\n: 1759908804:0;sort ~/.zsh_history | uniq | wc -l\n: 1759908810:0;sort ~/.zsh_history | uniq > ~/.zsh_history.clean\n./coeur.sh\n./motivation.sh
+    9  ./motivation.sh\n'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zshrch
+   10  ^[[A^[[A^[[A^[[A^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[Dq
+   11  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   12  /Desktop/Msc1
+   13  /Volumes/NO\ NAME/LOST.DIR/123241 ; exit;
+   14  /Volumes/NO\ NAME/LOST.DIR/99679 ; exit;
+   15  /Volumes/NO\ NAME/LOST.DIR/99680 ; exit;
+   16  > ~/.zsh_history\n~/Desktop
+   17  awk -f '{print $1}' fruits.txt
+   18  awk -F, '{print $1, $1*$1}' fruits.txt
+   19  awk -f, '{print $1}' fruits.txt
+   20  awk -F, '{print $1}' fruits.txt
+   21  awk '{print $1, $1*$1}' fruits.txt
+   22  awk '{print $1}' fruits.txt
+   23  brew --version\nbrew install --cask --no-quarantine gcenx/wine/wineskin
+   24  brew install --cask --no-quarantine wine-stable
+   25  brew install tree\nbrew install winetricks
+   26  brew tap homebrew/cask-versions
+   27  brew tap homebrew/cask-versions 
+   28  cat create_demo_linux.txt
+   29  cat fruits.txt
+   30  cat sequence.gff3 | awk -F "\t" '$3 == "gene" {print}' > ecoli_gene.gff
+   31  cat sequence.gff3 | awk -F "\t" '$3 == "gene" {print}' | wc -l
+   32  cat sequences.fasta
+   33  cd
+   34  cd -
+   35  cd ..
+   36  cd ../
+   37  cd ../..
+   38  cd ../../
+   39  cd ../../Download
+   40  cd ../../science
+   41  cd ../biology
+   42  cd ../chemistry
+   43  cd ../Desktop/L3/Bioinfo
+   44  cd ../Desktop/L3/Bioinfo/TP3
+   45  cd ../Download
+   46  cd ../Downloads
+   47  cd ../maths
+   48  cd ../physics
+   49  cd ../social
+   50  cd / theobatardiere
+   51  cd / user /bin
+   52  cd //
+   53  cd /demolinux
+   54  cd /desktop
+   55  cd /Desktop/MSc1
+   56  cd /Destop/Msc1
+   57  cd /home
+   58  cd /home/theobatardiere
+   59  cd /homez
+   60  cd /Shared
+   61  cd /theobatardiere
+   62  cd /users
+   63  cd /Users/theobatardiere
+   64  cd /Users/theobatardiere/demolinux
+   65  cd /usr/bin\ncd ~/Desktop
+   66  cd Bioinfo
+   67  cd biology
+   68  cd books
+   69  cd bureau
+   70  cd Bureau
+   71  cd demolinux
+   72  cd Deskto/Msc1
+   73  cd desktop
+   74  cd Desktop
+   75  cd Desktop/Master1
+   76  cd Desktop/Master1/linux_exercice
+   77  cd Desktop/Master1/linux_exercice/
+   78  cd Destop/Msc1
+   79  cd dir2
+   80  cd Downloads
+   81  cd dsktop
+   82  cd electricity
+   83  cd engineering
+   84  cd english
+   85  cd Fichiers\ FASTA
+   86  cd L3
+   87  cd linux_exercice
+   88  cd maths
+   89  cd msc1
+   90  cd Msc1
+   91  cd MSc1
+   92  cd science
+   93  cd science/biology
+   94  cd science/chemistry
+   95  cd social
+   96  cd technology
+   97  cd Téléchargements
+   98  cd..
+   99  cd../maths
+  100  cd/home
+  101  cd/home/tbatardiere
+  102  cd/home/theobatardiere
+  103  cd/user/bin
+  104  cd/users/home/theobatardiere
+  105  cd/users/theobatardiere
+  106  cd/usr/bin
+  107  chmod +x coeur.sh
+  108  chmod +x coeur.sh\nchmod +x motivation.sh\nclear
+  109  cp -r dir1 dir2
+  110  cp *math* math
+  111  cp *math* maths
+  112  cp chemistry/*math* maths/
+  113  cp create_demo_linux.sh create_demo_linux.txt
+  114  Desktop/Msc1
+  115  djap
+  116  echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> $HOME/.zprofile
+  117  echo 'HISTSIZE=10000' >> ~/.zshrc\necho 'SAVEHIST=50000' >> ~/.zshrc\necho "---------";env;echo "-----------"
+  118  echo $HISTFILE\necho $HISTSIZE $SAVEHIST $HISTFILE\necho $HISTSIZE\neval "$(/opt/homebrew/bin/brew shellenv)" 
+  119  exit
+  120  export HISTFILE=~/.zsh_history\nexport HISTSIZE=10000\nexport HISTSIZE=200000\nexport PATH="/opt/homebrew/bin:$PATH"
+  121  export SAVEHIST=10000\nexport SAVEHIST=200000\nfc -l 1 > create_demo_linux.sh
+  122  fc -l 1\nfc -p
+  123  fc -p\nfc -R ~/.zsh_history\ngrep -c '>' sequences.fasta
+  124  grep -c ">" Human_virus_sequences.fa
+  125  grep -c "banana" fruits.txt
+  126  grep -v "graphe" fruits.txt
+  127  grep '^>.*human' sequences.fasta\ngrep '< human' sequences.fasta
+  128  grep '<, human' sequences.fasta
+  129  grep '<' sequences.fasta
+  130  grep '> human' sequences.fasta
+  131  grep '>, human' sequences.fasta
+  132  grep '>' 'human' sequences.fasta
+  133  grep '>' | wc -l
+  134  grep '>' sequences.fasta
+  135  grep '>' sequences.fasta | grep 'human'
+  136  grep '>' sequences.fasta | wc -l
+  137  grep 'amino acid dehydrogenase' sequence.gff3
+  138  grep 'amino acid dehydrogenase' sequence.gff3 | awk -F "\t" '{print $5-$4}'
+  139  grep "apple" fruits.txt
+  140  head sequence.gff3
+  141  head sequence.gff3 | awk -F "\t" '$3 == "gene {print}' | wc -l
+  142  head sequence.gff3 | awk -F "\t" '$3 == "gene" {print}'
+  143  head sequence.gff3 | awk -F "\t" '$3 == "gene" {print}' | wc -l
+  144  history
+  145  history -c\nhistory -r
+  146  history -r   # bash : recharge le fichier .bash_history\nhistory > cmd_exe4.sh
+  147  history > create_demo_linux.sh
+  148  history | grep "mv"
+  149  history | tail\nless sequence.gff3
+  150  less sequences.fasta
+  151  lg mk
+  152  ls
+  153  ls 
+  154  ls -a
+  155  ls -g
+  156  ls -g????
+  157  ls -l motivation.sh\nls -l science/biology/maths*\nls -li
+  158  ls g????
+  159  ls g[^a-m]???
+  160  ls g[a-n]???
+  161  ls mk
+  162  ls mk*
+  163  mkdir advance beginner intermediate
+  164  mkdir art science
+  165  mkdir bilogy chemistry maths
+  166  mkdir Bioinfo
+  167  mkdir biology chemistry maths physics
+  168  mkdir biology chemistry maths physics 
+  169  mkdir books
+  170  mkdir communication english management
+  171  mkdir computerscience electricity process
+  172  mkdir demolinux
+  173  mkdir dir1
+  174  mkdir engineering science social
+  175  mkdir engineering/computerscience engineering/electricity engineering/process
+  176  mkdir linux_exercice
+  177  mkdir molecularbiology
+  178  mkdir science/biology science/chemistry science/maths science/physics social/communication social/english social/management
+  179  mkdir social/english/advance social/english/beginner social/english/intermediate
+  180  mkdir technology
+  181  mkdir TP3
+  182  more sequences.fasta
+  183  mv /books/science/biology/molecularbiology /books/art/
+  184  mv /science/biology/maths3.txt /science/biology/biology2.txt
+  185  mv /science/biology/molecularbiology /art
+  186  mv /science/biology/molecularbiology art
+  187  mv ~/.zsh_history.clean ~/.zsh_history\nmv ~/books/science/biology/molecularbiology ~/books/art/\nmv ~/Downloads/sequence.gff3 ~/Desktop/linux_exercice
+  188  mv ~/Downloads/sequences.fasta ~/Desktop/linux_exercice
+  189  mv ~/Users/tbatardiere/Downloads/sequences.fasta ~/Users/tbatardiere/Desktop/linux_exercice
+  190  mv bk1 ch1
+  191  mv create_demo_linux.sh create1_demo_linux.sh
+  192  mv create1_demo_linux.sh create_demo_linux.sh
+  193  mv demolinux/science/biology/maths3.txt demolinux/science/biology/biology2.txt
+  194  mv electromagnetism.txt ../physics
+  195  mv electromagnetism.txtmaths3.txt electromagnetism.txt
+  196  mv electromecanics.txt ../physics
+  197  mv ETAPE 1.png ../Desktop/L3/Bioinfo
+  198  mv ETAPE\ 1.png ../Desktop/L3/Bioinfo
+  199  mv Fichiers FASTA ../Desktop/L3/Bioinfo/TP3
+  200  mv Fichiers_FASTA ../Desktop/L3/Bioinfo/TP3
+  201  mv Fichiers\ FASTA ../Desktop/L3/Bioinfo/TP3
+  202  mv files1 new_file1
+  203  mv maths3.txt biology2.txt
+  204  mv mechanics.txt ../physics
+  205  mv molecularbiology biology
+  206  mv science/biology/maths3.txt biology2.txt
+  207  mv science/biology/maths3.txt science/biology/biology2.txt
+  208  mv science/biology/maths3.txt science/biology/biology2.txt\nmv Screenshot\ 2024-09-13\ at\ 12-14-35\ NGPhylogeny.fr.png ../Desktop/L3/Bioinfo
+  209  mv technology/* chemistry
+  210  mv technology/* science/chemistry
+  211  mv thermodynamics.txt ../physics
+  212  mv thermodynamics.txt ../physics/thermodynamics.txt
+  213  nano ~/.zsh_history\nnano coeur.sh
+  214  nano create_demo_linux.sh
+  215  nano create_demo_linux.txt
+  216  nano create_demo_linux.txt\nnano fruits.txt
+  217  nano motivation.sh
+  218  nano motivation.sh\nnano myname.txt
+  219  nao fruits.txt
+  220  open 'PPEI CLE2 2023.docx'
+  221  open ~$ PPEI CLE2 2023.docx
+  222  open PPEI CLE2 2023.docx
+  223  open PPEI_CLE2_2023.docx
+  224  open PPEICLE22023.docx
+  225  pwd
+  226  q
+  227  rm -r ~/Library/Application\ Support/Microsoft/Teams 
+  228  rm -r ~/Library/Application\ Support/Microsoft/Word
+  229  rm -r ~Application/Microsoft Word
+  230  rm -r art
+  231  rm -r bilogy
+  232  rm -r books
+  233  rm -r demolinux
+  234  rm -r dir2
+  235  rm -r technology
+  236  rm bilogy
+  237  rm biology
+  238  rm coeur.sh
+  239  rm create_demo_linux.sh
+  240  rm demolinux
+  241  rm files2
+  242  rm motivation.sh
+  243  rmdir dir1
+  244  rmdir dir2
+  245  sed -e 's/human/homo_sapiens/g' -e 's/mouse/mus_musculus/g' -e 's/yeast/saccharomyces_cerevisiae/g' sequences.fasta
+  246  sed -e 's/human/homo_sapiens/g' -e 's/mouse/mus_musculus/g' -e 's/yeast/saccharomyces_cerevisiae/g' sequences.fasta > output_sequences.fasta
+  247  sed -i '' 's/^[ ]*[0-9]*[ ]*//' create_demo_linux.sh\nsed -i '' 's/^[ 0-9]\+ //' create_demo_linux.sh\nsed -i 's/^[ ]*[0-9]*[ ]*//' create_demo_linux.txt
+  248  sed -i 's/^[ ]*[0-9]*[ ]*//' create1_demo_linux.sh 
+  249  sed '/^>/! s/T/U/g' sequences.fasta
+  250  sed 's/^[ ]*[0-9]*[ ]*//' create_demo_linux.sh
+  251  sed 's/^[ ]*[0-9]*[ ]*//' create_demo_linux.sh >create_demo_linux.txt\nsed 's/description/desc/g' sequences.fasta
+  252  setopt APPEND_HISTORY        # ajoute les nouvelles commandes au lieu d\M-b\M-^@\M-b\M-9écraser\nsetopt append_history share_history\nsetopt HIST_IGNORE_DUPS      # ignore les doublons successifs\nsetopt hist_ignore_dups hist_ignore_space hist_reduce_blanks\nsetopt HIST_IGNORE_SPACE     # ignore les commandes commençant par un espace\nsh cmd_exe4.sh
+  253  sh create_demo_linux.sh
+  254  sh create_demo_linux.sh\nsource ~/.zprofile
+  255  source ~/.zsh_history\nsource ~/.zshrc
+  256  source ~/.zshrc\nsudo apt install tree\nsudo dnf install tree\nsudo pacman -S tree\ntail ecoli_gene.gff
+  257  tail sequence.gff3
+  258  test "$?BASH_VERSION" = "0" || eval 'setenv() { export "$1=$2"; }';                setenv PATH "/Applications/Wine Stable.app/Contents/Resources/start/bin:/Applications/Wine Stable.app/Contents/Resources/wine/bin:$PATH"; winehelp --clear
+  259  touch /biology/molecularbiology
+  260  touch /maths/maths1.txt,maths2.txt
+  261  touch biology.txt cellular.txt electromagnetism.txt maths3.txt mechanics.txt molecularbiology.txt thermodynamics.txt
+  262  touch biology.txt cellular.txt electromagnetism.txtmaths3.txt mechanics.txt molecularbiology.txt thermodynamics.txt
+  263  touch file3
+  264  touch files1
+  265  touch files2
+  266  touch gene1 gene2 gene3 gene4 annot1 annot2 annot3 analysis1 analysis2
+  267  touch maths/maths1.txt maths/maths2.txt
+  268  touch maths1.txt maths2.txt
+  269  touch maths3.txt
+  270  touch technology/book{1..4} technology/tech{1..2} technology/bk{1..2} technology/math{1..2}\ntree
+  271  tree 
+  272  tree --version\ntree -d
+  273  tree books/
+  274  tree demolinux/
+  275  tree-d
+  276  vi cmd_exe4.sh
+  277  wc -l sequence.gff3
+  278  zsh -f\n: 1759908831:0;vi ~/.zsh_history
+  279  conda info --envs\necho $PATH | tr ':' '\n' | grep conda\n
+  280  lz
+  281  ls
+  282  ls -l
+  283  echo $HISTFILE
+  284  echo $HISTFILE
+  285  ls -l
+  286  cd Desktop/Master1/Omics
+  287  ls
+  288  head seq1.fasta
+  289  head seq2.fasta
+  290  sed -i 's/unknown_seq2/unknown_seq1/g' seq1.fasta
+  291  sed -i '' 's/unknown_seq2/unknown_seq1/g' seq1.fasta
+  292  head seq1.fasta
+  293  mv ~/Downloads/wolaa.fasta ~/Desktop/Master1/linux_exercice
+  294  cd ~/Desktop/Master1/linux_exercice
+  295  ls
+  296  sh script1.sh wolaa.fasta
+  297  nano demoscript1.sh
+  298  chmod 755 demoscript1.sh
+  299  sh demoscript1.sh
+  300  sh demoscript1.sh filename motif
+  301  rm demoscript1.sh
+  302  ls
+  303  nano script1.sh
+  304  sh script1.sh wolaa.fasta
+  305  chmod script1.sh
+  306  chmod 755  script1.sh
+  307  sh script1.sh wolaa.fasta
+  308  nano exercice3.sh
+  309  nano exercice3.sh
+  310  chmod 755 exercice3.sh
+  311  nano exercice3.sh
+  312  nano exercice3.sh
+  313  sh exercice3.sh
+  314  sh exercice3.sh wolaa.fasta
+  315  nano exercice3.sh
+  316  nano exercice4.sh
+  317  chmod 755 exercice4.sh
+  318  sh exercice4.sh wolaa.fasta
+  319  cat wolaa.fasta
+  320  nano exercice4.sh
+  321  sh exercice4.sh wolaa.fasta
+  322  nano exercice4.sh
+  323  nano exercice4.sh
+  324  sh exercice4.sh wolaa.fasta
+  325  ./ exercice4.sh wolaa.fasta
+  326  chmod +x exercice4.sh
+  327  ./ exercice4.sh wolaa.fasta
+  328  ./exercice4.sh wolaa.fasta
+  329  nano exercice4.sh
+  330  ./exercice4.sh wolaa.fasta
+  331  nano exercie5.sh
+  332  sh exercie5.sh wolaa.fasta 230
+  333  sh exercie5.sh wolaa.fasta 1000
+  334  nano exercie5.sh
+  335  history
+  336  cd ~/Desktop/Master1/linux_exercice
+  337  ls
+  338  history -100
+  339  cd ngswork
+  340  sh script_ngs.sh
+  341  nano script_ngs.sh
+  342  history 100
+  343  ls ~/Desktop/Master1/linux_exercice
+  344  ls -help
+  345  ls -demoscript1
+  346  cd ~/Desktop/Master1/linux_exercice
+  347  nano demoscript1.sh
+  348  chmod 755 demoscript1.sh
+  349  sh demoscript1.sh
+  350  sh demoscript1.sh filename motif
+  351  nano exercice1.sh
+  352  chmod 755 exercise.sh
+  353  chmod 755 exercise1.sh
+  354  chmod 755 exercice1.sh
+  355  sh exercice1.sh sequence.fasta GTA coli
+  356  ls
+  357  nano exercice1.sh
+  358  nano exercice1.sh
+  359  sh exercice1.sh
+  360  sh exercice1.sh sequence.fasta GTA coli
+  361  sh exercice1.sh sequences.fasta GTA coli
+  362  ./exercise.sh sequence.fasta GTA coli > results.txt
+  363  ./exercise1.sh sequence.fasta GTA coli > results.txt
+  364  ./exercice1.sh sequence.fasta GTA coli > results.txt
+  365  ./exercice1.sh sequences.fasta GTA coli > results.txt
+  366  vi results.txt
+  367  nano exercice3.sh
+  368  sh exercice3.sh
+  369  sh exercice3.sh sequences.fasta GTA coli > results3.txt
+  370  cat results3.txt
+  371  cat results.txt
+  372  cat results3.txt
+  373  ls
+  374  vi results3.txt
+  375  chmod 755 results3.txt
+  376  chmod 755 exercice3.sh
+  377  grep '>' sequences.fasta
+  378  vi sequences.fasta
+  379  sh exercice3.sh wolaa.fasta > results3.txt
+  380  cat results3.txt
+  381  ./exercice3.sh sequences.fasta "TGCGTACG" "human" resultat.txt
+  382  vi resultat.txt
+  383  ./exercice3.sh wolaa.fasta "TGCGTACG" "human" resultat.txt
+  384  vi resultat.txt
+  385  ls
+  386  nano script2.sh
+  387  chmod 755 script2.sh
+  388  sh script2.sh
+  389  sh script2.sh sequenceWol.fasta
+  390  vi result_ex2.txt
+  391  nano script3.sh
+  392  wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR000/ERR000001/ERR000001_1.fastq.gz
+  393  cat ERR000001_1.fastq | paste - - - -> ERR000001_1_tab.txt
+  394  ls
+  395  head ERR000001_1_tab.txt
+  396  head ERR000001_1_tab.txt
+  397  vi ERR000001_1_tab.txt
+  398  cat ERR000001_1.fastq | paste - - - -> ERR000001_1_tab.txt
+  399  cat ERR000001_1.fastq.gz.1 | paste - - - -> ERR000001_1_tab.txt
+  400  cat ERR000001_1.fastq.gz.1 | paste - - - -> ERR000001_1_tab.txt.1
+  401  gzip -d ERR000001_1.fastq.gz 
+  402  ls
+  403  hear ERR000001_1.fastq
+  404  head ERR000001_1.fastq
+  405  cat ERR000001_1.fastq |paste - - - -> ERR000001_1_tab.txt
+  406  ls
+  407  head ERR000001_1_tab.txt
+  408  awk '{print $1 "\t" $3}' ERR000001_1_tab.txt >ERR000001_1_allseqs.txt
+  409  head ERR000001_1_allseqs.txt
+  410  sed   's/^/>/' ERR000001_1_allseqs.txt > ERR000001_1_allseqs.fasta
+  411  head ERR000001_1_allseqs.fasta
+  412  nano script3.sh
+  413  nano script3.sh
+  414  nano script4.sh
+  415  nano showfolder.sh
+  416  chmod 755 showfolder.sh
+  417  sh showfolder.sh
+  418  nano shownumber.sh
+  419  chmod 755 shownumber.sh
+  420  sh shownumber.sh
+  421  nano shownumber.sh
+  422  sh shownumber.sh
+  423  nano shownumber.sh
+  424  sh shownumber.sh
+  425  echo "---------";env;echo "-----------"
+  426  exit
+  427  cd ~/Desktop/Master1/linux_exercice
+  428  mkdir homework2
+  429  mv ~/Downloads/homework2_instruction ~/Desktop/Master1/linux_exercice/homework2
+  430  mv ~/Downloads/homework2_instruction ~/Desktop/Master1/linux_exercice/homework2/
+  431  mv ~/Downloads/homework2_instruction ~/Desktop/Master1/linux_exercice/homework2/homework2_instruction
+  432  mv ~/Downloads/homework2_instruction ~/Desktop/Master1/linux_exercice/homework2
+  433  ls
+  434  cd homework2
+  435  mv ~/Downloads/homework2_instruction ~/Desktop/Master1/linux_exercice/homework2
+  436  mv ~/Downloads/homework2_instruction.html ~/Desktop/Master1/linux_exercice/homework2
+  437  mv ~/Downloads/fastafiles.tar.gz ~/Desktop/Master1/linux_exercice/homework2
+  438  history
+  439  nano fasta_tools.sh
+  440  nano fasta_tools.sh
+  441  cd ~/Desktop/Master1/linux_exercice/homework2
+  442  tar -xzvf fastafiles.tar.gz
+  443  cd fastafiles
+  444  head wola
+  445  head wolaa
+  446  cd ..
+  447  mv ~/fasta_tools.sh ~/Desktop/Master1/linux_exercice/homework2
+  448  ls
+  449  nano fasta_tools.sh
+  450  cd fastafiles
+  451  vi wolaa
+  452  vi wolad
+  453  cd ..
+  454  nano fasta_tools.sh
+  455  chmod +x fasta_tools.sh\n
+  456  sh fasta_tools.sh
+  457  fasta_tools.sh fastafiles
+  458  ;/fasta_tools.sh fastafiles
+  459  ./fasta_tools.sh fastafiles
+  460  ./fasta_tools.sh fastafiles wolaa
+  461  nano fasta_tools.sh
+  462  ./fasta_tools.sh fastafiles wolaa
+  463  nano fasta_tools.sh
+  464  ./fasta_tools.sh fastafiles wolaa
+  465  nano fasta_tools.sh
+  466  ./fasta_tools.sh fastafiles wolaa
+  467  nano fasta_tools.sh
+  468  ./fasta_tools.sh fastafiles wolaa
+  469  nano fasta_tools.sh
+  470  ./fasta_tools.sh fastafiles wolaa
+  471  nano fasta_tools.sh
+  472  ./fasta_tools.sh fastafiles wolaa
+  473  nano fasta_tools.sh
+  474  ./fasta_tools.sh fastafiles wolaa
+  475  ./fasta_tools.sh fastafiles wolad
+  476  nano fasta_tools.sh
+  477  ./fasta_tools.sh fastafiles
+  478  ./fasta_tools.sh fastafiles
+  479  nano fasta_tools.sh
+  480  ./fasta_tools.sh fastafiles
+  481  nano fasta_tools.sh
+  482  ./fasta_tools.sh fastafiles
+  483  nano fasta_tools.sh
+  484  nano fasta_tools.sh
+  485  ./fasta_tools.sh fastafiles
+  486  nano fasta_tools.sh
+  487  ./fasta_tools.sh fastafiles
+  488  nano fasta_tools.sh
+  489  nano fasta_tools.sh
+  490  ./fasta_tools.sh fastafiles
+  491  nano fasta_tools.sh
+  492  ./fasta_tools.sh fastafiles
+  493  nano fasta_tools.sh
+  494  cd ~/Desktop/Master1/linux_exercice/homework2
+  495  vi fasta_tools_AS.sh
+  496  chmod 755 fasta_tools_AS.sh
+  497  sh fasta_tools_AS.sh fastafiles
+  498  vi check_file_extension_AS.sh
+  499  vi fasta_tools.sh
+  500  cd ~/Desktop/Master1/linux_exercice/homework2
+  501  vi fasta_tools.sh
+  502  nano check_file_extension.sh
+  503  chmod +x check_file_extension.sh
+  504  ./ check_file_extension.sh result_ex2.txt
+  505  ./check_file_extension.sh result_ex2.txt
+  506  nano check_file_extension.sh
+  507  ./check_file_extension.sh result_ex2.txt
+  508  nano check_file_extension.sh
+  509  ./check_file_extension.sh result_ex2.txt
+  510  nano check_file_extension.sh
+  511  ./check_file_extension.sh result_ex2.txt
+  512  ./check_file_extension.sh ERR000001_1_allseqs.fasta
+  513  ./check_file_extension.sh ecoli_gene.gff
+  514  nano check_file_extension.sh
+  515  /Applications/Wine\ Stable.app/Contents/Resources/wine/bin/wine-preloader ; exit;
+  516  cd Desktop/Sup\'Biotech/Damien\ Poch\ -\ Final\ Projet\ OMICS\ groupe\ 9
+  517  cd script
+  518  vi figure1.sh
+  519  prokka --version\n
+  520  conda install -c bioconda prokka\n
+  521  cd ..
+  522  cd ..
+  523  cd ..
+  524  cd Scripy\ partie\ 3
+  525  nano figure1.sh
+  526  chmod +x run_prokka.sh\n
+  527  chmod +x figure1.sh
+  528  sh figure1.sh
+  529  nano figure1.sh
+  530  nano figure1.sh
+  531  sh figure1.sh
+  532  docker --version
+  533  ./figure1.sh\n
+  534  docker run --rm --platform linux/amd64 hello-world\n
+  535  cd fna\n\nfor f in *.fna; do\n    mv "$f" "$(echo "$f" | sed 's/([^)]*)//g')"\ndone\n\nls\n
+  536  nano figure1.sh
+  537  nano cd ..
+  538  cd ..
+  539  nano figure1.sh
+  540  chmod +x figure1.sh\n
+  541  ./figure1.sh\n
+  542  nano figure1.sh
+  543  chmod +x figure1.sh\n
+  544  ./figure1.sh\n
+  545  nano figure1.sh
+  546  ./figure1.sh\n
+  547  nano figure1.sh
+  548  conda activate bio_env\n./figure1.sh\n
+  549  conda activate bio_env\nwhich diamond\ndiamond --version\n
+  550  nano figure1.sh
+  551  conda activate bio_env\nexport PATH="$CONDA_PREFIX/bin"\northofinder -h\n
+  552  diamond makedb --help\n
+  553  diamond help\n
+  554  ./figure1.sh\n
+  555  conda info --base
+  556  nano figure1.sh
+  557  nano figure1.sh
+  558  /usr/bin/nano figure1.sh
+  559  export PATH="/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$PATH"
+  560  nano figure1.sh
+  561  ./figure1.sh\n
+  562  nano figure1.sh
+  563  ./figure1.sh\n
+  564  nano figure1.sh
+  565  ./figure1.sh
+  566  nano figure1.sh
+  567  ./figure1.sh
+  568  nano figure1.sh
+  569  ./figure1.sh
+  570  conda install -c conda-forge -c bioconda -c defaults prokka bioperl --force-reinstall
+  571  prokka --version
+  572  conda install -c bioconda -c conda-forge perl-bioperl prokka --force-reinstall
+  573  prokka --version
+  574  ins option to turn off plugins.\n\nExample: conda --no-plugins install <package>\n\nAlternatively, you can set the CONDA_NO_PLUGINS environment variable on\nthe command line to run the command without plugins enabled.\n\nExample: CONDA_NO_PLUGINS=true conda install <package>\n\n\nTimeout reached. No report sent.\n\n(bio_env) theobatardiere@MacBook-Air-Theo Scripy partie 3 % prokka --version\nCan't locate Bio/Root/Version.pm in @INC (you may need to install the Bio::Root::Version module) (@INC contains: /Library/Perl/5.34/darwin-thread-multi-2level /Library/Perl/5.34 /Network/Library/Perl/5.34/darwin-thread-multi-2level /Network/Library/Perl/5.34 /Library/Perl/Updates/5.34.1 /
+  575  prokka --version
+  576  export PERL5LIB="/opt/anaconda3/envs/bio_env/lib/perl5/site_perl/5.34.1:$PERL5LIB"
+  577  prokka --version
+  578  conda deactivate
+  579  conda create -n phylo_pro -c bioconda -c conda-forge \\n  python=3.9 prokka perl-bioperl mafft trimal iqtree biopython
+  580  conda activate phylo_pro
+  581  prokka --version
+  582  conda create -n phylo_pro_m1
+  583  conda activate phylo_pro_m1\nconda config --env --set subdir osx-64
+  584  conda install -c bioconda -c conda-forge \\n  prokka mafft trimal iqtree biopython python=3.9
+  585  prokka --version
+  586  pip install biopython
+  587  cd Desktop/Scripy\ partie\ 3
+  588  chmod +x figure1.sh
+  589  ./figure1.sh 2>&1 | tee pipeline.log
+  590  orthofinder -h
+  591  Orthofinder -h
+  592  OrthoFinder -h
+  593  OrthoFinder -h
+  594  CONDA_NO_PLUGINS=true conda install -n phylo_pro_m1 -c bioconda orthofinder --force-reinstall
+  595  CONDA_NO_PLUGINS=true conda install -n phylo_pro_m1 -c bioconda orthofinder --solver=classic --force-reinstall
+  596  which orthofinder
+  597  which OrthoFinder
+  598  ls $CONDA_PREFIX/bin/orthofinder
+  599  (phylo_pro_m1) theobatardiere@MacBook-Air-Theo Scripy partie 3 % ls $CONDA_PREFIX/bin/orthofinder\nls: /opt/anaconda3/envs/phylo_pro_m1/bin/orthofinder: No such file or directory
+  600  conda install -n base -c conda-forge mamba -y
+  601  conda deactivate
+  602  CONDA_SUBDIR=osx-64 mamba create -n phylo_ok -c bioconda -c conda-forge \\n  python=3.9 prokka orthofinder mafft trimal iqtree biopython -y
+  603  conda activate phylo_ok
+  604  ls $CONDA_PREFIX/bin/orthofinder
+  605  orthofinder -h
+  606  chmod +x figure1.sh
+  607  ./figure1.sh 2>&1 | tee pipeline.log
+  608  ls
+  609  cd..
+  610  cd ..
+  611  cd Script_partie_3/
+  612  rm -rf prokka_results proteins_faa single_copy_sequences alignments concat tree
+  613  ./figure1.sh 2>&1 | tee pipeline.log
+  614  nano figure1.sh
+  615  rm -rf prokka_results proteins_faa single_copy_sequences alignments concat tree
+  616  ./figure1.sh 2>&1 | tee pipeline.log
+  617  nano figure1.sh
+  618  ./figure1.sh 2>&1 | tee pipeline.log
+  619  rm -rf prokka_results proteins_faa single_copy_sequences alignments concat tree
+  620  ./figure1.sh 2>&1 | tee pipeline.log
+  621  nano figure1.sh
+  622  sed -n '1,/ORTHOFINDER/p' figure1.sh > figure1_clean.sh\necho '  -S diamond -M dendroblast' >> figure1_clean.sh
+  623  mv figure1_clean.sh figure1.sh\nchmod +x figure1.sh
+  624  rm -rf prokka_results proteins_faa single_copy_sequences alignments concat tree
+  625  ./figure1.sh 2>&1 | tee pipeline.log
+  626  nano figure1.sh
+  627  rm -rf prokka_results proteins_faa single_copy_sequences alignments concat tree
+  628  ./figure1.sh 2>&1 | tee pipeline.log
+  629  echo "---------";env;echo "-----------"
+  630  exit
+  631  /private/etc/hosts
+  632  /private/etc/hosts
+  633  10.201.27.2 lab.supbiotech.fr www.lab.supbiotech.fr
+  634  /private/etc/hosts/10.201.27.2 lab.supbiotech.fr www.lab.supbiotech.fr
+  635  /private/etc/hosts10.201.27.2 lab.supbiotech.fr www.lab.supbiotech.fr
+  636  /private/etc/hosts 10.201.27.2 lab.supbiotech.fr www.lab.supbiotech.fr
+  637  mkdir test
+  638  cd test
+  639  cd test
+  640  cd ...
+  641  cd..
+  642  cd..
+  643  cd ..
+  644  ls
+  645  rm -r test
+  646  ls
+  647  ssh master2027@10.201.27.2
+  648  ssh master2027@10.201.27.2
+  649  sudo rm -rf /Applications/Docker.app
+  650  rm -rf ~/Library/Containers/com.docker.docker
+  651  rm -rf ~/Library/Application\ Support/Docker\ Desktop
+  652  rm -rf ~/.docker
+  653  rm -rf ~/Library/Preferences/com.docker.docker.plist
+  654  rm -rf ~/Library/Saved\ Application\ State/com.electron.docker-frontend.savedState
+  655  rm -rf ~/Library/Logs/Docker\ Desktop
+  656  ls ~/Library/Containers/com.docker.docker
+  657  python --version
+  658  jupyter kernelspec list
+  659  which python
+  660  mysql -u root -p
+  661  pip -install PyMysql
+  662  pip install PyMysql
+  663  cd Users
+  664  ls
+  665  cd Downloads
+  666  python database.py
+  667  python database.py
+  668  which mysql
+  669  mysql.server start
+  670  mkdir -p /opt/anaconda3/data
+  671  mysqld --initialize --datadir=/opt/anaconda3/data --user=$(whoami)
+  672  mysql.server start
+  673  conda desactivate
+  674  brew install mysql
+  675  conda activate
+  676  python database.py
+  677  brew services start mysql
+  678  brew services start mysql
+  679  brew services list | grep mysql
+  680  brew services start mysql
+  681  sudo brew services start mysql
+  682  sudo brew services start mysql
+  683  conda activate base\npython database.py
+  684  mysql -u root
+  685  mysql -u root -p
+  686  mysql -u root -p
+  687  conda activate base
+  688  python dabase.py
+  689  python database.py
+  690  python database.py
+  691  python database.py
+  692  python database.py
+  693  python database.py
+  694  python database.py
+  695  pip install streamlit
+  696  streamlit hello
+  697  cd Downloads
+  698  python streamlit_train.py
+  699  streamlit run streamlit_train.py
+  700  streamlit run streamlit_train.py
+  701  /usr/local/bin/python3 Untitled-1
+  702  /usr/local/bin/python3 Untitled-1
+  703  pip install pymysql
+  704  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  705  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  706  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  707  pip install pymysql
+  708  conda activate
+  709  conda activate base
+  710  conda install pymysql
+  711  python -c "import pymysql; print('✅ pymysql fonctionne!')"
+  712  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  713  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  714  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  715  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  716  /usr/local/bin/python3 "/Users/theobatardiere/Downloads/import pymysql.py"
+  717  python databae.py
+  718  cd Desktop
+  719  ls
+  720  cd Users
+  721  ls
+  722  cd theobatardiere/Desktop
+  723  python database.py
+  724  python database.py
+  725  sql
+  726  mysql
+  727  brew services start maysql
+  728  brew services start mysql
+  729  brew services restart mysql
+  730  brew sercices start mysql
+  731  brew services start mysql
+  732  brew services stop mysql
+  733  brew services restart mysql
+  734  mysql
+  735  brew services list | grep mysql
+  736  mysql -u root -p
+  737  conda activate mint
+  738  cd mint
+  739  mint -p config.yml -l
+  740  mint -p config.yml -l
+  741  mint -p config.yml -l
+  742  mint -p config.yml -l
+  743  mint -p config.yml -l
+  744  mint -p config.yml -l
+  745  mint -p config.yml -l
+  746  mint -p config.yml -l
+  747  mint -p config.yml -l
+  748  mint -p config.yml -l
+  749  conda activate mint
+  750  cd mint
+  751  cd mint
+  752  mint -p config.yml - l
+  753  mint -p config.yml -l
+  754  mint -p config.yml -l
+  755  mint -p config_phase_neurons.yml -l
+  756  cd /chemin/vers/mint\npython main.py  # ou la commande appropriée
+  757  cd mint
+  758  python main.py
+  759  cd mint
+  760  python main.py
+  761  cd ..
+  762  cd .
+  763  cd ..
+  764  tree
+  765  cd mint
+  766  python mint.py
+  767  cd mint
+  768  python mint.py
+  769  cd /Users/theobatardiere/mint\npython -m mint.mint
+  770  cd /Users/theobatardiere/mint\npip install -e .\nmint -f mon_dossier -p config.yaml -l
+  771  mint -p config_phase_neurons.yml -l
+  772  brew list
+  773  conda activate mint_env
+  774  conda list
+  775  conda info 
+  776  conda desactivate
+  777  conda deactivate
+  778  conda list
+  779  conda env list
+  780  cd mint
+  781  conda create -n mint
+  782  conda activate mint
+  783  pip intall .
+  784  conda install pip
+  785  pip install .
+  786  mint -p config_phase_neurons.yml -l
+  787  conda install setuptools pip
+  788  mint -p config_phase_neurons.yml -l
+  789  pip install .
+  790  mint -p config_phase_neurons.yml -l
+  791  pip uninstall mint -y
+  792  ls setup.cfg
+  793  pip install .
+  794  ls -la
+  795  mint -p config_phase_neurons.yml -l
+  796  ls
+  797  pip uninstall mint -y
+  798  pip install -e .
+  799  mint -p config_phase_neurons.yml -l
+  800  pip show ipywidgets
+  801  pip install --upgrade ipywidgets
+  802  pip install --upgrade ipywidgets ipykernel
+  803  conda activate mint
+  804  pip install tifffile
+  805  npm install mongodb
+  806  python -m pip install "pymongo[srv]"
+  807  python mongo.py
+  808  cd Desktop
+  809  python mongo.py
+  810  python -m pip install --upgrade certifi
+  811  python mongo.py
+  812  python mongo.py
+  813  /usr/local/bin/python3 "/Users/theobatardiere/Desktop/from pymongo import MongoClient.py"
+  814  python -m pip install "pymongo[srv]"
+  815  cd Desktop
+  816  python mongo.py
+  817  python mongo.py
+  818  python mongo.py
+  819  python mongo.py
+  820  mongosh
+  821  mangosh
+  822  pip -install mangosh
+  823  brew install mongosh
+  824  mongosh "mongodb+srv://cluster0.psuyvgj.mongodb.net/" --apiVersion 1 --username theobatardiere_db_user
+  825  mongosh "mongodb+srv://cluster0.psuyvgj.mongodb.net/" --apiVersion 1 --username theobatardiere_db_user
+  826  mongosh "mongodb+srv://theobatardiere_db_user:MongoDB@cluster0.psuyvgj.mongodb.net/"
+  827  mongosh "mongodb+srv://theobatardiere_db_user:MongoDB@cluster0.psuyvgj.mongodb.net/"
+  828  netstat -rn | grep default
+  829  netstat -rn | grep default
+  830  ping 8.8.8.8
+  831  ping google.com
+  832  ifconfig en8 | grep ether
+  833  system_profiler SPUSBDataType
+  834  cd mint
+  835  conda activate mint
+  836  cd mint 
+  837  mint -p config_phase_neurons.yml -l
+  838  cd ..
+  839  mint -p config_phase_neurons.yml -l
+  840  mint -p config_phase_neurons.yml -l
+  841  pwd
+  842  cd ../../
+  843  cd ..
+  844  pwd
+  845  ls
+  846  cd mint
+  847  condate activate mint
+  848  conda activate mint
+  849  mint -p config_phase_neurons.yml -l -e -s
+  850  /usr/local/bin/python3 "/Users/theobatardiere/Desktop/Stage Lumin/Corélation test/fenetre_phase.py"
+  851  fenetre_phase.py
+  852  conda info --envs
+  853  ls -la /opt/anaconda3/envs/mint/bin/python*
+  854  cd mint
+  855  pip install .
+  856  conda activate mint
+  857   conda activate base
+  858  conda activate mint
+  859  cd mint
+  860  conda activate mint
+  861  mint -p config_phase_neurons.yml -l
+  862  mint -p config_phase_neurons.yml -l
+  863  mint -p config_phase_neurons.yml -l
+  864  mint -p config_phase_neurons.yml -l
+  865  pip install .
+  866   conda activate mint
+  867  cd ùint
+  868  cd int
+  869  cd mint
+  870  pip install -e .
+  871  conda envs info
+  872  conda --envs info
+  873  conda activate mint
+  874  mint -p config_phase_neurons.yml -l
+  875   conda activate mint
+  876   conda activate mint
+  877  cd mint
+  878  mint -p config_phase_neurons.yml -l
+  879  conda activate mint
+  880  mint -p config_phase_neurons.yml -l
+  881  mint -p config_phase_neurons.yml -l
+  882  mint -p config_phase_neurons.yml -l
+  883   conda activate mint
+  884  cd Desktop
+  885  cd Recalage_Phase_Fluo
+  886  python3 diagnostic_recalage.py points_phase.csv points_fluo.csv
+  887  python3 diagnostic_recalage.py points_phase.csv points_fluo.csv
+  888  pwd
+  889  python3 phase_vers_fluo.py PHA_2026-07-10_18-14-56-517.tif phase_recalee.tif --fluo fluo.tif\n
+  890  python3 phase_vers_fluo.py PHA_2026-07-10_18-14-56-517.tif phase_recalee.tif --fluo Capture_fluo_exc_561nm_ref9.tif\n
+  891  cd ..
+  892  cd Stage\ Lumin
+  893  cd Corélation\ test
+  894  python3 phase_vers_fluo.py CHAMP2 stack-Crop.tif phase_recalee.tif --fluo CHAMP2.nd2\n
+  895  python3 phase_vers_fluo.py CHAMP2 stack-Crop.tif phase_recalee.tif --fluo CHAMP2.nd2\n
+  896   conda activate mint
+  897   conda activate mint
+  898   conda activate mint
+  899   conda activate mint
+  900   conda activate mint
+  901   conda activate mint
+  902   conda activate mint
+  903   conda activate mint
+  904   conda activate mint
+  905   conda activate mint
+  906   conda activate mint
+  907  /Volumes/THEOB/THEO/A\ faire ; exit;
+  908  cd Desktop/Master1/Msc2
+  909  mkdir GitHub
+  910  git clone https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+  911  ls
+  912  cd Batardiere-Chea-HuynhVan
+  913  ls
+  914  README.md
+  915  git status
+  916  git add protocol.md
+  917  git status
+  918  ls
+  919  ls -a
+  920  rm .Rhistory
+  921  git status 
+  922  git commit -m "feat: add team note from Théo"
+  923  git status
+  924  git config --global user.name "theobatardiere"
+  925  git config --global user.email "theo.batardiere@gmail.com"
+  926  git commit -m "feat: add team note from Théo"
+  927  git status
+  928  git pull origin main
+  929  git push origin main
+  930  git pull origin main
+  931  git pull origin main
+  932  git push origin main
+  933  git add protocol.md 
+  934  git commit -m "feat: add team note théo"
+  935  git push origin main
+  936  git add protocol;md
+  937  git add protocol.md 
+  938  git commit -m "feat: add team note théo"
+  939  git pull origin main
+  940  git push origin main
+  941  git pull origin main
+  942  git add protocol;
+  943  git add protocol.md
+  944  git commit -m "feat: add team note"
+  945  git push origin main
+  946  git pull origin main
+  947  git pull --no-rebase origin main
+  948  git add protocol.md
+  949  git commit -m "feat: add team note"
+  950  git push origin main
+  951  conda --version
+  952  cd Desktop/Master1/MsC2/Single_Cell_Analysis
+  953  ls
+  954  conda env create -f environment.yml
+  955  conda activate supbiotech-sc
+  956  python -m ipykernel install --user --name skinwound --display-name "Python (skinwound)"
+  957  python -c "import scanpy; print(scanpy.__version__)"
+  958  ls DATA
+  959  ls DATA/
+  960  jupyter lab
+  961  cd Desktop/Master1/MsC2/Single_Cell_Analysis
+  962  conda activate supbiotech-sc
+  963  Juputer lab
+  964  jupyter lab
+  965  git --version
+  966  git config user.name
+  967  git config user.email
+  968  pwd
+  969  cd Desktop/Master/MsC2
+  970  ls
+  971  cd GitHub
+  972  ls
+  973  ls
+  974  mkdir -p ~/session2
+  975  ls
+  976  cd ~/session2
+  977  ls
+  978  touch worklog-<batardiere>-s2.txt
+  979  pwd
+  980  git status
+  981  touch worklog-batardiere-s2.txt
+  982  ls
+  983  git clone https://github.com/theobatardiere/protocol-library.git 2>&1 | tee -a worklog-batardiere-s2.txt\ncd protocol-library
+  984  git clone https://github.com/theobatardiere/protocol-library.git 2>&1 | tee -a worklog-batardiere-s2.txt\ncd protocol-library
+  985  cd protocol-library
+  986  git remote add upstream https://github.com/SupBiotech-MSc2/protocol-library.git
+  987  git remote -v 2>&1 | tee -a ../worklog-batardiere-s2.txt
+  988  git switch -c docs/add-theobatardiere 2>&1 | tee -a ../worklog-batardiere-s2.txt
+  989  cp contributors/TEMPLATE.md contributors/theobatardiere.md
+  990  code contributors/theobatardiere.md
+  991  open contributors/theobatardiere.md
+  992  pwd
+  993  cat contributors/theobatardiere.md
+  994  cat contributors/theobatardiere.md
+  995  cat contributors/theobatardiere.md
+  996  git status 2>&1 | tee -a ../worklog-batardiere-s2.txt
+  997  git diff 2>&1 | tee -a ../worklog-batardiere-s2.txt
+  998  rm contributors/.Rhistory
+  999  git status 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1000  git add contributors/theobatardiere.md
+ 1001  git diff --staged 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1002  git commit -m "docs: add theobatardiere to contributors" 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1003  git push origin docs/add-theobatardiere 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1004  git switch main 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1005  git switch -c fix/western-missing-step 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1006  git branch
+ 1007  cat protocols/western-blot.md
+ 1008  git status 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1009  git diff 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1010  git add protocols/western-blot.md
+ 1011  git commit -m "fix: add missing step 4 to western blot protocol" 2>&1 | tee -a ../worklog-batardiere-s2.txt\n
+ 1012  git push origin fix/western-missing-step 2>&1 | tee -a ../worklog-batardiere-s2.txt
+ 1013  git status
+ 1014  git restore protocol.md
+ 1015  git status
+ 1016  git status
+ 1017  git add protocol.md
+ 1018  git status
+ 1019  git commit -m "test: throwaway commit"
+ 1020  git log --oneline
+ 1021  git reset HEAD~1
+ 1022  git status
+ 1023  git restore protocol.md
+ 1024  git status
+ 1025  git log --oneline
+ 1026  git revert 0edda14
+ 1027  git log --oneline
+ 1028  git revert <hash>
+ 1029  git revert git push origin main
+ 1030  git revert git push origin main
+ 1031  git push origin main
+ 1032  git push origin main
+ 1033  git push origin main
+ 1034  git push origin main
+ 1035  git log --oneline
+ 1036  git log
+ 1037  git log --oneline
+ 1038  git show d6c8cd0
+ 1039  git push origin main
+ 1040  git pull origin main
+ 1041  git push origin main
+ 1042  git pull --no-rebase origin main
+ 1043  git add .
+ 1044  git commit
+ 1045  git push origin main
+ 1046  git push origin main
+ 1047  git pull --no-rebase origin main
+ 1048  git add .
+ 1049  git commit
+ 1050  git status
+ 1051  git push origin main
+ 1052  git diff
+ 1053  git diff --staged
+ 1054  git checkout -b feature/theobatardiere-idea
+ 1055  git branch
+ 1056  git add
+ 1057  git add .
+ 1058  git commit
+ 1059  git commit -m "add a reagent"
+ 1060  git push origin feature/theobatardiere-idea
+ 1061  git switch main
+ 1062  git status
+ 1063  git switch feature/theobatardiere-idea
+ 1064  git add .
+ 1065  git commit -m "add test in reagent"
+ 1066  git log -oneline main
+ 1067  git log --oneline main
+ 1068  git log --oneline
+ 1069  git rebase main
+ 1070  git log --oneline --graph
+ 1071  git push origin main
+ 1072  git pull origin main
+ 1073  git pull --no-rebase origin main
+ 1074  git push origin main
+ 1075  git status
+ 1076  switch origin main
+ 1077  git switch origin main
+ 1078  git pull origin main
+ 1079  git checkout -b feature/theobatardiere-idea
+ 1080  git branch
+ 1081  git status
+ 1082  git add .
+ 1083  git status
+ 1084  git switch main
+ 1085  git branch
+ 1086  git status
+ 1087  git commit -m "step 6"
+ 1088  git switch main
+ 1089  git pull
+ 1090  git status
+ 1091  git branch
+ 1092  git switch feature/theobatardiere-idea
+ 1093  git add protocol.md
+ 1094  git commit -m "feat: add a small edit"
+ 1095  git rebase main
+ 1096  git log --onleine--graph -5
+ 1097  git log --oneline--graph -5
+ 1098  git log --oneline --graph -5
+ 1099  git switch main
+ 1100  git pull origin main
+ 1101  git add protocol.md
+ 1102  git commit -m "feat: add a small edit"
+ 1103  git status
+ 1104  git status
+ 1105  git branch -a
+ 1106  git log --oneline --graph --all
+ 1107  git show --stat fe342a0 | cat
+ 1108  git log --oneline main | cat
+ 1109  git reflog -30 | cat
+ 1110  grep -n "" protocol.md
+ 1111  git fetch origin
+ 1112  git reset --hard HEAD~1
+ 1113  git status
+ 1114  git log --oneline -3
+ 1115  sed -n '27,33p' protocol.md
+ 1116  git status | tee -a worklog-theobatardiere.txt
+ 1117  printf '\n**Status:** BROKEN\n' >> protocol.md
+ 1118  git status | tee -a worklog-theobatardiere.txt
+ 1119  git diff | tee -a worklog-theobatardiere.txt
+ 1120  git restore protocol.md
+ 1121  git status | tee -a worklog-theobatardiere.txt
+ 1122  printf '\n<!-- test reset -->\n' >> protocol.md
+ 1123  echo "# edit manuel: ajout d'un commentaire dans protocol.md" >> worklog-theobatardiere.txt
+ 1124  L git add protocol.md
+ 1125  printf '\n<!-- test reset -->\n' >> protocol.md
+ 1126  git add protocol.md\n
+ 1127  git commit -m "test: throwaway commit" | tee -a worklog-theobatardiere.txt\n
+ 1128  git log --oneline -3 | tee -a worklog-theobatardiere.txt\n
+ 1129  git reset HEAD~1 | tee -a worklog-theobatardiere.txt\n
+ 1130  git status | tee -a worklog-theobatardiere.txt\n
+ 1131  git restore protocol.md\n
+ 1132  git status | tee -a worklog-theobatardiere.txt
+ 1133  git pull origin main 2>&1 | tee -a worklog-theobatardiere.txt
+ 1134  git status | tee -a worklog-theobatardiere.txt
+ 1135  sed -n '28p' protocol.md
+ 1136  head -n 28 protocol.md > protocol.tmp
+ 1137  printf 'Anne-So: This is mine!\nTea: This is my line.\n' >> protocol.tmp\n
+ 1138  mv protocol.tmp protocol.md\n
+ 1139  git diff | tee -a worklog-theobatardiere.txt\n
+ 1140  git add protocol.md\n
+ 1141  git commit -m "fix: remove leftover conflict markers in team notes" | tee -a worklog-theobatardiere.txt
+ 1142  printf 'Théo : This my line\n' >> protocol.md\n
+ 1143  git add protocol.md\n
+ 1144  git commit -m "docs: add team note line from Théo" | tee -a worklog-theobatardiere.txt\n
+ 1145  git push origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1146  git log --oneline -3 | tee -a worklog-theobatardiere.txt
+ 1147  git revert --no-edit d4a24be 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1148  git push origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1149  git log --oneline -5 | tee -a worklog-theobatardiere.txt\n
+ 1150  sed -n '27,$p' protocol.md | tee -a worklog-theobatardiere.txt
+ 1151  printf 'Théo : This my line\n' >> protocol.md\n
+ 1152  git add protocol.md\n
+ 1153  git commit -m "docs: restore team note from Théo" | tee -a worklog-theobatardiere.txt\n
+ 1154  git push origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1155  git log --oneline -6 | tee -a worklog-theobatardiere.txt\n
+ 1156  sed -n '27,$p' protocol.md | tee -a worklog-theobatardiere.txt\n
+ 1157  git status | tee -a worklog-theobatardiere.txt
+ 1158  git log | tee -a worklog-theobatardiere.txt
+ 1159  git log --oneline | tee -a worklog-theobatardiere.txt\n
+ 1160  git show 07b21ea | tee -a worklog-theobatardiere.txt
+ 1161  printf '\n<!-- test diff -->\n' >> protocol.md\n
+ 1162  git diff | tee -a worklog-theobatardiere.txt\n
+ 1163  git add protocol.md\n
+ 1164  git diff --staged | tee -a worklog-theobatardiere.txt\n
+ 1165  git restore --staged protocol.md\n
+ 1166  git restore protocol.md\n
+ 1167  git status | tee -a worklog-theobatardiere.txt
+ 1168  git fetch origin 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1169  git log --format='%h %an %s' main..origin/feature/theobatardiere-idea | tee -a worklog-theobatardiere.txt
+ 1170  git push origin --delete feature/theobatardiere-idea 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1171  git branch -D feature/theobatardiere-idea | tee -a worklog-theobatardiere.txt\n
+ 1172  git checkout -b feature/theobatardiere-idea 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1173  git branch | tee -a worklog-theobatardiere.txt
+ 1174  git status | tee -a worklog-theobatardiere.txt\n
+ 1175  git add protocol.md\n
+ 1176  git commit -m "feat: add nuclease-free water to reagents" | tee -a worklog-theobatardiere.txt\n
+ 1177  git push origin feature/theobatardiere-idea 2>&1 | tee -a worklog-theobatardiere.txt
+ 1178  git switch main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1179  git status | tee -a worklog-theobatardiere.txt\n
+ 1180  sed -n '10,18p' protocol.md | tee -a worklog-theobatardiere.txt\n
+ 1181  git switch feature/theobatardiere-idea 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1182  sed -n '10,19p' protocol.md | tee -a worklog-theobatardiere.txt
+ 1183  git switch -c feature/theobatardiere-rebase-demo 2>&1 | tee -a worklog-theobatardiere.txt
+ 1184  git add protocol.md\n
+ 1185  git commit -m "feat: add sterile filter tips to reagents" | tee -a worklog-theobatardiere.txt\n
+ 1186  git log --oneline main | tee -a worklog-theobatardiere.txt\n
+ 1187  git log --oneline | tee -a worklog-theobatardiere.txt
+ 1188  git switch main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1189  git branch -D feature/theobatardiere-rebase-demo | tee -a worklog-theobatardiere.txt\n
+ 1190  git switch -c feature/theobatardiere-rebase-demo 1bb4be9 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1191  git log --oneline -1 | tee -a worklog-theobatardiere.txt
+ 1192  git status | tee -a worklog-theobatardiere.txt\n
+ 1193  git add protocol.md\n
+ 1194  git commit -m "feat: add sterile filter tips to reagents" | tee -a worklog-theobatardiere.txt
+ 1195  git log --oneline main..HEAD | tee -a worklog-theobatardiere.txt\n
+ 1196  git log --oneline HEAD..main | tee -a worklog-theobatardiere.txt\n
+ 1197  git log --oneline --graph --decorate -7 main feature/theobatardiere-rebase-demo | tee -a worklog-theobatardiere.txt
+ 1198  git rebase main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1199  git log --oneline --graph -6 | tee -a worklog-theobatardiere.txt\n
+ 1200  git log --oneline main..HEAD | tee -a worklog-theobatardiere.txt
+ 1201  git switch main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1202  git pull origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1203  git merge --no-ff feature/theobatardiere-idea -m "chore: merge feature/theobatardiere-idea into main" 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1204  git push origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1205  git log --oneline --graph -5 | tee -a worklog-theobatardiere.txt\n
+ 1206  sed -n '10,19p' protocol.md | tee -a worklog-theobatardiere.txt
+ 1207  git branch -D feature/theobatardiere-rebase-demo | tee -a worklog-theobatardiere.txt
+ 1208  git pull origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1209  git log --oneline --graph -8 | tee -a worklog-theobatardiere.txt\n
+ 1210  sed -n '3p' protocol.md | tee -a worklog-theobatardiere.txt\n
+ 1211  git status | tee -a worklog-theobatardiere.txt
+ 1212  git fetch --prune origin 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1213  git log --oneline --graph --all | tee -a worklog-theobatardiere.txt\n
+ 1214  git branch -a --no-merged main | tee -a worklog-theobatardiere.txt\n
+ 1215  grep -nE '^(<<<<<<<|=======|>>>>>>>)' protocol.md | tee -a worklog-theobatardiere.txt\n
+ 1216  git status | tee -a worklog-theobatardiere.txt
+ 1217  git pull origin main 2>&1 | tee -a worklog-theobatardiere.txt\n
+ 1218  git show --stat --format='%h %an %s' 3df8e90 | tee -a worklog-theobatardiere.txt
+ 1219  git add worklog-theobatardiere.txt\n
+ 1220  git commit -m "docs: add worklog from Théo"\n
+ 1221  git pull --no-rebase origin main\n
+ 1222  git push origin main
+ 1223  git show --stat --format='%h %an %s' 3df8e90 
+ 1224  ls
+ 1225  cd ..
+ 1226  cd ~/Batardiere-Chea-HuynhVan
+ 1227  find ~ -maxdepth 4 -name ".git" -type d -not -path "*/node_modules/*" -not -path "*/Library/*" 2>/dev/null
+ 1228  cd /Users/theobatardiere/.gemini/history/batardiere-chea-huynhvan
+ 1229  pwd
+ 1230  find ~ -maxdepth 6 -type d -name "batardiere-chea-huynhvan" -not -path "*/.gemini/*" 2>/dev/null
+ 1231  cd ..
+ 1232  cd ..
+ 1233  cd ..
+ 1234  ls
+ 1235  cd session2/
+ 1236  git clone https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+ 1237  git remote -v\n
+ 1238  git status\n
+ 1239  git switch main\n
+ 1240  git pull
+ 1241  cat README.md
+ 1242  git diff\n
+ 1243  git add README.md\n
+ 1244  git commit -m "docs: add branching strategy note"\n
+ 1245  git push
+ 1246  cd ~/session2/protocol-library\n

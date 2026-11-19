@@ -1,0 +1,447 @@
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 898f658] fix: revolve leftover conflict markers in team notes
+ 1 file changed, 2 insertions(+), 9 deletions(-)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   598a6a2..898f658  main -> main
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+warning: in the working copy of 'protocol.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/protocol.md b/protocol.md
+index 717347c..96eabea 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -25,3 +25,4 @@ screening.
+ Anne-So: This is mine!
+ Tea: This is my line.
+ Théo: This is my line. 
++**Status:** BROKEN
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+[main 9fc44a2] test: throwaway commit
+ 1 file changed, 1 insertion(+)
+fatal: unrecognized argument: -oneline
+9fc44a2 test: throwaway commit
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+Unstaged changes after reset:
+M	protocol.md
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+7253863 feat: add team note from Tea
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+	"\302\243LOG"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Unstaged changes after reset:
+M	protocol.md
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Updating 598a6a2..898f658
+Fast-forward
+ protocol.md | 11 ++---------
+ 1 file changed, 2 insertions(+), 9 deletions(-)
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+bash: $'\E[200~git': command not found
+[main b54bf62] docs: add revert practice line
+ 1 file changed, 1 insertion(+)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   898f658..b54bf62  main -> main
+[main 9819961] Revert "docs: add revert practice line"
+ Date: Wed Nov 18 17:11:21 2026 +0100
+ 1 file changed, 1 deletion(-)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   b54bf62..9819961  main -> main
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+commit 98199610804fddd9e6a13ce71cf9b4f43af464d5
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:11:21 2026 +0100
+
+    Revert "docs: add revert practice line"
+    
+    This reverts commit b54bf62d433c9377155b749d8d1b35f2135767e9.
+
+commit b54bf62d433c9377155b749d8d1b35f2135767e9
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 17:10:48 2026 +0100
+
+    docs: add revert practice line
+
+commit 898f658dab248bef7ce4c90b63a239a5c3875740
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 16:59:38 2026 +0100
+
+    fix: revolve leftover conflict markers in team notes
+
+commit 598a6a214dd3b3f8b3e1bac0781457cd2a914337
+Merge: 0edda14 4f96a71
+Author: theobatardiere <theo.batardiere@gmail.com>
+Date:   Thu Sep 24 12:37:57 2026 +0200
+
+    feat: add team note
+
+commit 4f96a716a6924338352da09c9693c29ba6c6a1fa
+Merge: a3b7fea 7253863
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Thu Sep 24 12:29:46 2026 +0200
+
+    feat: add team note
+
+commit 72538630f5d962c021bea83ff1f7165e73a74dcf
+Author: Tea Huynh Van <teacarla.huynh-van@supbiotech.fr>
+Date:   Thu Sep 24 12:21:04 2026 +0200
+
+    feat: add team note from Tea
+
+commit 0edda144694a4562e7c62fa2bd27ee0b5806b95d
+Author: Théo Batardière <theobatardiere@MacBook-Air-Theo.local>
+Date:   Thu Sep 24 12:17:26 2026 +0200
+
+    feat: add team note from Théo
+
+commit a3b7fea48aa887869cd804cd706f1475adbe2ae2
+Author: ANNE-SOPHIE CHEA <anne-sophie.chea@bd.com>
+Date:   Thu Sep 24 12:17:24 2026 +0200
+
+    feat: add team note from Anne-So
+
+commit 922e67bbd911d80dd60992029113b669fb6eb95e
+Author: tchv01 <teacarla.huynh-van@supbiotech.fr>
+Date:   Thu Sep 24 11:41:39 2026 +0200
+
+    Initial commit
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+4f96a71 feat: add team note
+7253863 feat: add team note from Tea
+0edda14 feat: add team note from Théo
+a3b7fea feat: add team note from Anne-So
+922e67b Initial commit
+commit 898f658dab248bef7ce4c90b63a239a5c3875740
+Author: Anne-Sophie CHEA <annesophie.chea@gmail.com>
+Date:   Wed Nov 18 16:59:38 2026 +0100
+
+    fix: revolve leftover conflict markers in team notes
+
+diff --git a/protocol.md b/protocol.md
+index 4629da4..717347c 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -22,13 +22,6 @@ screening.
+ 
+ ## Team Notes
+ <!-- add your own line below, one per teammate -->
+-<<<<<<< HEAD
+ Anne-So: This is mine!
+-=======
+-Tea: This is my line. 
+-
+-<<<<<<< HEAD
+-Théo : This my line
+-=======
+->>>>>>> 72538630f5d962c021bea83ff1f7165e73a74dcf
+->>>>>>> 4f96a716a6924338352da09c9693c29ba6c6a1fa
++Tea: This is my line.
++Théo: This is my line. 
+Switched to a new branch 'feature/annesophie-idea'
+* feature/annesophie-idea
+  main
+warning: in the working copy of 'protocol.md', LF will be replaced by CRLF the next time Git touches it
+diff --git a/protocol.md b/protocol.md
+index 717347c..4cd7e83 100644
+--- a/protocol.md
++++ b/protocol.md
+@@ -12,6 +12,7 @@ screening.
+ - Synthetic sgRNA (target-specific)
+ - Electroporation buffer
+ - HEK293 cells, passage < 20
++- Puromycin (selection antibiotic)
+ 
+ ## Steps
+ 1. Design and order sgRNA targeting exon 2 of the gene of interest.
+[feature/annesophie-idea 19ef36d] feat: add puromycin to reagents
+ 1 file changed, 1 insertion(+)
+remote: 
+remote: Create a pull request for 'feature/annesophie-idea' on GitHub by visiting:        
+remote:      https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan/pull/new/feature/annesophie-idea        
+remote: 
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+ * [new branch]      feature/annesophie-idea -> feature/annesophie-idea
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+Switched to branch 'feature/annesophie-idea'
+[feature/annesophie-idea f02c66a] feat: add DAPI to reagents
+ 1 file changed, 1 insertion(+)
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+898f658 fix: revolve leftover conflict markers in team notes
+598a6a2 feat: add team note
+f02c66a feat: add DAPI to reagents
+19ef36d feat: add puromycin to reagents
+9819961 Revert "docs: add revert practice line"
+b54bf62 docs: add revert practice line
+Current branch feature/annesophie-idea is up to date.
+* f02c66a feat: add DAPI to reagents
+* 19ef36d feat: add puromycin to reagents
+* 9819961 Revert "docs: add revert practice line"
+* b54bf62 docs: add revert practice line
+* 898f658 fix: revolve leftover conflict markers in team notes
+*   598a6a2 feat: add team note
+|\  
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   19ef36d..f02c66a  feature/annesophie-idea -> feature/annesophie-idea
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Merge made by the 'ort' strategy.
+ protocol.md | 2 ++
+ 1 file changed, 2 insertions(+)
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   9819961..7dcafac  main -> main
+*   7dcafac chore: merge feature/annesophie-idea into main
+|\  
+| * f02c66a feat: add DAPI to reagents
+| * 19ef36d feat: add puromycin to reagents
+|/  
+* 9819961 Revert "docs: add revert practice line"
+* b54bf62 docs: add revert practice line
+* 898f658 fix: revolve leftover conflict markers in team notes
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+   7dcafac..1bb4be9  main       -> origin/main
+Updating 7dcafac..1bb4be9
+Fast-forward
+ protocol.md | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+[feature/status-review 740ec7e] chore: mark status as under review
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Switched to branch 'main'
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+From https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan
+ * branch            main       -> FETCH_HEAD
+Updating 19d6407..52cc225
+Fast-forward
+ protocol.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Auto-merging protocol.md
+CONFLICT (content): Merge conflict in protocol.md
+Automatic merge failed; fix conflicts and then commit the result.
+On branch main
+Your branch is up to date with 'origin/main'.
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+	both modified:   protocol.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	worklog-annesophie.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[main 2dd0486] Merge branch 'feature/status-review'
+To https://github.com/SupBiotech-MSc2/Batardiere-Chea-HuynhVan.git
+   52cc225..2dd0486  main -> main
+    1  cd
+    2  cd~/Documents
+    3  ls
+    4  cd supbiotech
+    5  mkdir -p msc2-git && cd msc2-git
+    6  git config --global core.editor notepad
+    7  u=TON-USERNAME
+    8  U=TON-USERNAME
+    9  U=AnnxSoox
+   10  cd ~/supbiotech/msc2-git 2>/dev/null || { cd ~/supbiotech && mkdir -p msc2-git && cd msc2-git;}
+   11  U=AnnxSooxx
+   12  cd ~/supbiotech/msc2-git 2>/dev/null || { cd ~/supbiotech && mkdir -p msc2-git && cd msc2-git;}
+   13  ls
+   14  LOG=../worklog-annesophie-s2.txt
+   15  cd ~/Batardiere-Chea-HuynhVan
+   16  LOG=worklog-annesophie.txt
+   17  git status 2>&1 | tee -a $LOG
+   18  git pull origin main 2>&1 |tee -a $LOG
+   19  grep -n "<<<<<<<\|=======\|>>>>>>>" protocol.md
+   20  head -n 24 protocol.md > tmp.md && cat >> tmp.md <<'EOF'
+Anne-So: This is mine!
+Tea: This is my line.
+Théo: This my line. 
+EOF
+
+   21  mv tmp.md protocol.md 
+   22  tail -n 6 protocol.md
+   23  head -n 24 protocol.md > tmp.md && cat >> tmp.md <<'EOF'
+Anne-So: This is mine!
+Tea: This is my line.
+Théo: This is my line. 
+EOF
+
+   24  mv tmp.md protocol.md 
+   25  tail -n 4 protocol.md
+   26  grep -n "<<<<<<<\|=======\|>>>>>>>" protocol.md
+   27  git add protocol.md
+   28  git commit -m "fix: revolve leftover conflict markers in team notes" 2>&1 | tee -a $LOG
+   29  git push origin main 2>&1 | tee -a $LOG
+   30  git status 2>&1 | tee -a $LOG
+   31  echo '**Status:** BROKEN' >> protocol.md
+   32  git status 2>&1 | tee -a $LOG
+   33  git diff 2>&1 | tee -a $LOG
+   34  git restore protocol.md
+   35  git status 2>&1 | tee -a $LOG
+   36  echo 'Anne-So: temporary line' >> protocol.md
+   37  git add protocol.md
+   38  git commit -m "test: throwaway commit" 2>&1 | tee -a $LOG
+   39  git log -oneline -3 2>&1 | tee -a $LOG
+   40  git log --oneline -3 2>&1 | tee -a $LOG
+   41  git reset HEAD~1 2>&1 | tee -a £LOG
+   42  git reset HEAD~1 2>&1 | tee -a $LOG
+   43  git log --oneline -3 2>&1 | tee -a $LOG
+   44  git status 2>&1 | tee -a $LOG
+   45  cat "£LOG" >> worklog-annesophie.txt
+   46  rm "£LOG"
+   47  git restore protocol.md
+   48  git pull origin main 2>&1 | tee -a $LOG
+   49  git log --oneline -3 2>&1 | tee -a $LOG
+   50  git status 2>&1 | tee -a $LOG
+   51  [200~git pull origin main 2>&1 | tee -a $LOG
+   52  echo 'Anne-So: revert practice line' >> protocol.md
+   53  git add protocol.md
+   54  git commit -m "docs: add revert practice line" 2>&1  tee -a $LOG
+   55  git status
+   56  git restore --staged protocol.md
+   57  git restore protocol.md
+   58  git status 
+   59  echo 'Anne-So: revert practice line' >> protocol.md
+   60  git add protocol.md
+   61  git commit -m "docs: add revert practice line" 2>&1 | tee -a $LOG
+   62  git push origin main 2>&1 | tee -a $LOG
+   63  git revert --no-edit b54bf62 2>&1 | tee -a $LOG
+   64  git push origin main 2>&1 | tee -a $LOG
+   65  git log --oneline -4 2>&1 | tee -a $LOG
+   66  tail -n 4 protocol.md
+   67  git log 2>&1 | tee -a $LOG
+   68  git log --oneline 2>&1 | tee -a $LOG
+   69  git show 898f658 2>&1 | tee -a $LOG
+   70  git checkout -b feature/annesophie-idea 2>&1 | tee -a $LOG
+   71  git branch 2>&1 | tee -a $LOG
+   72  sed -i '/HEK293 cells, passage < 20/a - Puromycin (selection antibiotic)' protocol.md
+   73  git diff 2>&1 | tee -a $LOG
+   74  git add protocol.md
+   75  git commit -m "feat: add puromycin to reagents" 2>&1 | tee -a $LOG
+   76  git push origin feature/annesophie-idea 2>&1 | tee -a $LOG
+   77  git switch main 2>&1 | tee -a $LOG
+   78  grep -n "Puromycin" protocol.md
+   79  git switch feature/annesophie-idea 2>&1 | tee -a $LOG
+   80  grep -n "Puromycin" protocol.md
+   81  sed -i '/Puromycin/a - DAPI (viability stain)' protocol.md
+   82  git add protocol.md
+   83  git commit -m "feat: add DAPI to reagents" 2>&1 | tee -a $LOG
+   84  git log --oneline -4 main 2>&1 | tee -a $LOG
+   85  git log --oneline -4 2>&1 | tee -a $LOG
+   86  git rebase main 2>&1 | tee -a $LOG
+   87  git log --oneline --graph -6 2>&1 | tee -a $LOG
+   88  git push origin feature/annesophie-idea 2>&1 | tee -a $LOG
+   89  git switch main 2>&1 | tee -a $LOG
+   90  git pull origin main 2>&1 | tee -a $LOG
+   91  git merge --no-ff feature/annesophie-idea -m "chore: merge feature/annesophie-idea into main" 2>&1 | tee -a $LOG
+   92  git push origin main 2>&1 | tee -a $LOG
+   93  git log --oneline --graph -6 2>&1 | tee -a $LOG
+   94  git pull origin main 2>&1 | tee -a $LOG
+   95  git log --oneline --graph --all -12
+   96  git log --all --format='%h %an : %s' -15
+   97  git pull
+   98  git log --oneline -3
+   99  grep -n -A3 "Branching" README.md
+  100  git switch main
+  101  git fetch origin
+  102  git checkout -b feature/status-review 19d6407
+  103  LOG=worklog-annesophie.txt
+  104  sed -i '3s/.*/**Status:** Under review/' protocol.md
+  105  head -n 3 protocol.md
+  106  git add protocol.md
+  107  git commit -m "chore: mark status as under review" 2>&1 | tee -a $LOG
+  108  git checkout main 2>&1 | tee -a $LOG
+  109  git pull origin main 2>&1 | tee -a $LOG
+  110  git merge feature/status-review 2>&1 | tee -a $LOG
+  111  git status 2>&1 | tee -a $LOG
+  112  head -n 9 protocol.md
+  113  sed -i '3,7c\**Status:** Draft v2 - under review' protocol.md
+  114  sed -i '3,7c\**Status:** Under review' protocol.md
+  115  head -n 5 protocol.md
+  116  grep -n -E '^(<<<<<<<|=======|>>>>>>>)' protocol.md
+  117  git checkout -m protocol.md
+  118  head -n 9 protocol.md
+  119  sed -i '3,7c\**Status:** Under review' protocol.md
+  120  sed -i '3,7c\**Status:** Draft v2 - under review' protocol.md
+  121  head -n 6 protocol.md
+  122  git checkout -m protocol.md && sed -i '3,7c\**Status:** Draft v2 - under review' protocol.md && head -n 9 protocol.md
+  123  grep -n -E '^(<<<<<<<|=======|>>>>>>>)' protocol.md
+  124  git add protocol.md
+  125  git commit --no-edit 2>&1 | tee -a $LOG
+  126  git push origin main 2>&1 | tee -a $LOG
+  127  history >> $LOG

@@ -28,4 +28,3 @@ screening.
 <!-- add your own line below, one per teammate -->
 Anne-So: This is mine!
 Tea: This is my line.
-Théo : This my line

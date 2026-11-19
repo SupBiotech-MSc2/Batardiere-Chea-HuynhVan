@@ -39,3 +39,4 @@ one.
 ## Branching strategy
 We use trunk-based development: short-lived branches merged into 'main' often.
 With three people and small, frequent changes, Git Flow's long-lived 'develop'/'release'/'hotfix' branches would only add overhead.
+We chose trunk-based development: short-lived feature branches merged into `main` often. With three people editing a single protocol, this keeps conflicts small and avoids maintaining long-lived `develop` and `release` branches.

@@ -15,6 +15,7 @@ screening.
 - HEK293 cells, passage < 20
 - Puromycin (selection antibiotic)
 - DAPI (viability stain)
+- Nuclease-free water
 
 ## Steps
 1. Design and order sgRNA targeting exon 2 of the gene of interest.
